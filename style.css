@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#maindiv{
+    width: 100%;
+    background-color: red;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    display: flex;
+    gap: 20px;
+}
+.contant{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+}
+.contant ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-right: 400px;
+    padding-top: 20px;
+
+}
+.contant img{
+    display: flex;
+    width: 200px;
+    height: 52px;
+}
